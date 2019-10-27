@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Miso.woff2),
+        url(../fonts/Miso.woff);
+}
+
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/Miso-Bold.woff2),
+        url(../fonts/Miso-Bold.woff);
+}
+
+
 body {
     background-color: #fdde7e;
     text-decoration: none;
@@ -22,7 +39,7 @@ table tr,
 table td {
     border: none;
     color: #333333;
-    font-family: Arial;
+    font-family: Miso;
     font-size: 12px;
     font-style: normal;
     font-weight: normal;
@@ -34,7 +51,7 @@ input,
 textarea,
 select {
     outline: none;
-    font-family: Arial;
+    font-family: Miso;
     font-size: 12px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
