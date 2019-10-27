@@ -118,11 +118,13 @@ h2 {
 }
 
 .description {
+    font-family: 'Lato', sans-serif;
     max-width: 155px;
     margin: 0 auto 38px;
     text-align: center;
     font-size: 20px;
     line-height: 23px;
+    opacity: 0.8;
 }
 
 .block-h {
@@ -146,9 +148,11 @@ h2 {
 }
 
 .description-h {
+    font-family: 'Lato', sans-serif;
     max-width: 155px;
     margin: 0 auto 56px;
     text-align: center;
     font-size: 20px;
     line-height: 23px;
+    opacity: 0.8;
 }
